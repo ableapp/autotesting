@@ -1,0 +1,566 @@
+Added file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: E:\hh\workspace\autotesting\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+30 KB/s (5150 bytes in 0.164s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.ableclassroom.test.testing" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/test.jar"],nativeLibraryDirectories=[/system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+31 KB/s (5150 bytes in 0.159s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.ableclassroom.test.testing" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/test.jar"],nativeLibraryDirectories=[/system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+30 KB/s (5168 bytes in 0.163s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.ableclassroom.test.testing" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/test.jar"],nativeLibraryDirectories=[/system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+77 KB/s (5169 bytes in 0.065s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.onlineschool.test.testing
+
+INSTRUMENTATION_STATUS: stream=
+
+com.onlineschool.test.testing:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testpresshome
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2222222222
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.onlineschool.test.testing
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testpresshome
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.127
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+29 KB/s (5169 bytes in 0.170s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.ableclassroom.test.aaa
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ableclassroom.test.aaa:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testpress
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+1111111111
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.ableclassroom.test.aaa
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testpress
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.135
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 5 source files to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+31 KB/s (5293 bytes in 0.162s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.onlineschool.test.*" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/test.jar"],nativeLibraryDirectories=[/system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+30 KB/s (5297 bytes in 0.169s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.onlineschool.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+com.onlineschool.test.login:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testpresshome
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2222222222
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.onlineschool.test.login
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testpresshome
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.141
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\hh\workspace\autotesting\build.xml
+Buildfile: E:\hh\workspace\autotesting\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 21.1.0
+ [checkenv] Installed at E:\hh\software\adt-bundle-windows-x86_64_20140101\sdk
+
+-build-setup:
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to E:\hh\workspace\autotesting\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		   ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		    ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		     ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		      ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		       ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		        ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		          ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		           ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		            ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:10: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ??????У????
+    [javac] 		             ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		   ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		    ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		     ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		      ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		       ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		        ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		         ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		          ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		           ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		            ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		             ^
+    [javac] E:\hh\workspace\autotesting\src\com\app\test\testing.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] 		// ????????????
+    [javac] 		              ^
+    [javac] 25 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\hh\workspace\autotesting\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\hh\workspace\autotesting\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\hh\workspace\autotesting\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+error: device not found
+error: device not found
