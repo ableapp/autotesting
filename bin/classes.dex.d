@@ -1,5 +1,4 @@
-C:\Users\Workspace\autotesting\bin\classes.dex : \
-C:\Users\Workspace\autotesting\bin\classes\com\ableclassroom\test\login.class \
-C:\Users\Workspace\autotesting\bin\classes\com\app\test\testing.class \
-C:\Users\Workspace\autotesting\bin\classes\com\app\test\UiAutomatorHelper.class \
-C:\Users\Workspace\autotesting\bin\classes\com\onlineschool\test\login.class \
+E:\hh\workspace\nengliketang\bin\classes.dex : \
+E:\hh\workspace\nengliketang\bin\classes\com\app\test\testing.class \
+E:\hh\workspace\nengliketang\bin\classes\com\app\test\UiAutomatorHelper.class \
+E:\hh\workspace\nengliketang\bin\classes\com\nengliketang\test\login.class \
