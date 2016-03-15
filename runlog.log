@@ -1315,3 +1315,588 @@ OK (1 test)
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file C:\Users\Workspace\nengliketang\build.xml
+Buildfile: C:\Users\Workspace\nengliketang\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.0.5
+ [checkenv] Installed at D:\robotium\robotiumadt\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.0.1
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\Workspace\nengliketang\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to C:\Users\Workspace\nengliketang\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		   ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		    ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		     ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		      ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		       ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		        ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		         ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		          ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		           ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		            ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		             ^
+    [javac] C:\Users\Workspace\nengliketang\src\com\app\test\testing.java:10: ����: ����UTF-8�Ĳ���ӳ���ַ�
+    [javac] 		// ????????????
+    [javac] 		              ^
+    [javac] 15 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\Workspace\nengliketang\bin\classes
+      [dex] Converting compiled files and external libraries into C:\Users\Workspace\nengliketang\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\Workspace\nengliketang\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+108 KB/s (6085 bytes in 0.055s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+com.nengliketang.test.login:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testlogin:
+
+java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for UiAutomatorTestRunner=.E
+
+Time: 19.222
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\Workspace\nengliketang\build.xml
+Buildfile: C:\Users\Workspace\nengliketang\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.0.5
+ [checkenv] Installed at D:\robotium\robotiumadt\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.0.1
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\Workspace\nengliketang\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\Workspace\nengliketang\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\Workspace\nengliketang\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+152 KB/s (6085 bytes in 0.039s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+com.nengliketang.test.login:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testlogin:
+
+java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for UiAutomatorTestRunner=.E
+
+Time: 26.729
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\Workspace\nengliketang\build.xml
+Buildfile: C:\Users\Workspace\nengliketang\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.0.5
+ [checkenv] Installed at D:\robotium\robotiumadt\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.0.1
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\Workspace\nengliketang\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\Workspace\nengliketang\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\Workspace\nengliketang\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+220 KB/s (6085 bytes in 0.027s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+com.nengliketang.test.login:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testlogin:
+
+java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for UiAutomatorTestRunner=.E
+
+Time: 20.328
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\Workspace\nengliketang\build.xml
+Buildfile: C:\Users\Workspace\nengliketang\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.0.5
+ [checkenv] Installed at D:\robotium\robotiumadt\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.0.1
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\Workspace\nengliketang\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\Workspace\nengliketang\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\Workspace\nengliketang\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+160 KB/s (6085 bytes in 0.037s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+com.nengliketang.test.login:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.nengliketang.test.login
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testlogin:
+
+java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=java.lang.NoSuchMethodError: com.android.uiautomator.core.UiSelector.resourceId
+
+	at com.app.test.Publicclass.inputPassport(Publicclass.java:115)
+
+	at com.nengliketang.test.login.testlogin(login.java:15)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:85)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:76)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:237)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testlogin
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for UiAutomatorTestRunner=.E
+
+Time: 21.065
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
