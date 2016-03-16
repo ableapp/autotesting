@@ -7,9 +7,8 @@ public class testing extends UiAutomatorTestCase {
 
 	public static void main(String[] args){
 		String jarName = "test";
-		// ²âÊÔÄÜÁ¦¿ÎÌÃ
 		String testClass = "com.nengliketang.test.login";
-		String testName = "";
+		String testName = "testregister";
 		String androidId = "10";
 		new UiAutomatorHelper(jarName, testClass, testName, androidId);
 	}
