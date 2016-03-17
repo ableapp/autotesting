@@ -13,6 +13,10 @@ public class Publicclass extends UiAutomatorTestCase {
 	 * 通过滑动定位到能力课堂
 	 */
 	public void findablesky() {
+		UiDevice.getInstance().pressBack();
+		UiDevice.getInstance().pressBack();
+		UiDevice.getInstance().pressBack();
+		UiDevice.getInstance().pressMenu();
 		int startX = UiDevice.getInstance().getDisplayWidth()/2;
 		int startY = UiDevice.getInstance().getDisplayHeight()/2;
 		int endX = UiDevice.getInstance().getDisplayWidth()/5;
@@ -43,7 +47,7 @@ public class Publicclass extends UiAutomatorTestCase {
 	}
 	
 	/**
-	 * 点击登录/注册
+	 * 点击我的页面的登录/注册
 	 */
 	public void clickLoginAndRegistButton(){
 		UiObject loginAndRegist=new UiObject(new UiSelector().text("登录/注册"));
@@ -61,6 +65,8 @@ public class Publicclass extends UiAutomatorTestCase {
 		UiCollection edit=new UiCollection(new UiSelector().className("android.widget.EditText"));
 		try {
 			UiObject name=edit.getChildByInstance(new UiSelector().className("android.widget.EditText"), 0);
+			name.clearTextField();
+			name.clearTextField();
 			name.clearTextField();
 			sleep(1000);
 			name.setText(user);
@@ -87,7 +93,7 @@ public class Publicclass extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 点击登录按钮
+	 * 点击用户登录页面的登录按钮
 	 */
 	public void clickLoginButton(){
 		UiObject pport=new UiObject(new UiSelector().text("登录"));
@@ -160,6 +166,76 @@ public class Publicclass extends UiAutomatorTestCase {
 		}	
 			
 	}
-
-
+	
+	/*
+	 * 点击我的页面的我的收藏
+	 */
+	public void clickCollection(){
+		UiObject collection=new UiObject(new UiSelector().text("我的收藏"));
+		try {
+			sleep(1000);
+			collection.click();
+			sleep(1000);
+		} catch (UiObjectNotFoundException e) {
+			e.printStackTrace();
+		}	
+	}
+	
+	/*
+	 * 课程详情页面收藏
+	 */
+	public void collectionOk(){
+		UiObject collect=new UiObject(new UiSelector().textStartsWith("收藏"));
+		UiObject collect1=new UiObject(new UiSelector().textStartsWith("已收藏"));
+		if(collect1.exists()){
+			collectionCansel();
+			collectionOk();
+		}	
+		else{
+			sleep(1000);
+			try {
+				collect.click();
+			} catch (UiObjectNotFoundException e) {
+				e.printStackTrace();
+			}
+			sleep(1000);
+		}
+		assertTrue(collect1.exists());
+	}
+	
+	/*
+	 * 课程详情页面取消收藏
+	 */
+	public void collectionCansel(){
+		UiObject collect=new UiObject(new UiSelector().textStartsWith("已收藏"));
+		UiObject collect1=new UiObject(new UiSelector().textStartsWith("收藏"));
+		if(collect1.exists()){
+			collectionOk();
+			collectionCansel();
+		}	
+		else{
+			sleep(1000);
+			try {
+				collect.click();
+			} catch (UiObjectNotFoundException e) {
+				e.printStackTrace();
+			}
+			sleep(1000);
+		}
+		assertTrue(collect1.exists());
+	}
+	
+	/*
+	 * 点击返回
+	 */
+	public void clickBack(){
+		UiObject back=new UiObject(new UiSelector().textStartsWith("返回"));
+		try {
+			sleep(1000);
+			back.click();
+			sleep(1000);
+		} catch (UiObjectNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 }
