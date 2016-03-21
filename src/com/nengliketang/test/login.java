@@ -12,7 +12,7 @@ import com.android.uiautomator.testrunner.UiAutomatorTestCase;
 import com.app.test.Publicclass;
 
 public class login extends UiAutomatorTestCase {
-	/*
+	/**
 	 * 注册是否都能注册成功并自动登录
 	 */
 	public void testregister(){
@@ -58,7 +58,7 @@ public class login extends UiAutomatorTestCase {
 		UiDevice.getInstance().pressBack();
 	}
 	
-	/*
+	/**
 	 * 内训账号不能登录能力课堂
 	 */
 	public void testlogin() {
@@ -73,7 +73,7 @@ public class login extends UiAutomatorTestCase {
 		UiDevice.getInstance().pressBack();
 	}
 	
-	/*
+	/**
 	 * 机构管理员可以登录能力课堂
 	 */
 	public void testAdminLogin(){
@@ -89,7 +89,7 @@ public class login extends UiAutomatorTestCase {
 		UiDevice.getInstance().pressBack();
 	}
 	
-	/*
+	/**
 	 * 我的收藏夹上拉下拉，收藏课程、取消收藏
 	 */
 	public void testcollection(){
@@ -157,10 +157,10 @@ public class login extends UiAutomatorTestCase {
 		UiDevice.getInstance().pressBack();
 	}
 	
-	/*
+	/**
 	 * 访客收藏的课程，登录后是否能进入用户的我的
 	 */
-	public void nologinCollection(){
+	public void testnologinCollection(){
 		new Publicclass().findablesky();
 		new Publicclass().clickHomePage();
 		UiObject course1=new UiObject(new UiSelector().resourceId("com.ablesky.ui.activity:id/tuijian1"));
@@ -187,6 +187,20 @@ public class login extends UiAutomatorTestCase {
 		new Publicclass().clickLogout();
 		UiDevice.getInstance().pressBack();
 		UiDevice.getInstance().pressBack();
+	}
+	
+	/**
+	 * 从我的收藏进入课程详情播放、下载课程、做课后练习
+	 */
+	public void testCollectionPlay(){
+		new Publicclass().findablesky();
+		new Publicclass().clickMy();
+		new Publicclass().clickLoginAndRegistButton();
+		new Publicclass().inputUser("zidonghuaceshi");
+		new Publicclass().inputPassport("aaaa");
+		new Publicclass().clickLoginButton();
+		new Publicclass().clickCollection();
+		new Publicclass().
 	}
 
 }

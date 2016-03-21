@@ -167,7 +167,7 @@ public class Publicclass extends UiAutomatorTestCase {
 			
 	}
 	
-	/*
+	/**
 	 * 点击我的页面的我的收藏
 	 */
 	public void clickCollection(){
@@ -181,7 +181,7 @@ public class Publicclass extends UiAutomatorTestCase {
 		}	
 	}
 	
-	/*
+	/**
 	 * 课程详情页面收藏
 	 */
 	public void collectionOk(){
@@ -203,7 +203,7 @@ public class Publicclass extends UiAutomatorTestCase {
 		assertTrue(collect1.exists());
 	}
 	
-	/*
+	/**
 	 * 课程详情页面取消收藏
 	 */
 	public void collectionCansel(){
@@ -225,7 +225,7 @@ public class Publicclass extends UiAutomatorTestCase {
 		assertTrue(collect1.exists());
 	}
 	
-	/*
+	/**
 	 * 点击返回
 	 */
 	public void clickBack(){
